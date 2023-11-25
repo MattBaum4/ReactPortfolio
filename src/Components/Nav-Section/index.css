@@ -1,0 +1,39 @@
+:root {
+    --primary: #eae7dc;
+    --secondary: #e85a4f;
+    --alternate: #d8c3a5;
+}
+
+body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: var(--alternate);
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+/* container is the entire div that holds the portfolio home link as well as the links for about */
+.container {
+    width: 50%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+
+}
+/* a is for the links and their spacing */
+a {
+    text-decoration: none;
+    padding: 0px 16px;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
