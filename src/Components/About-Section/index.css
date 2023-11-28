@@ -1,0 +1,20 @@
+.container-card{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+.cards-profile, .cards-badge{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border: 2px solid red;
+    
+}
+
+img {
+    width: 12vw;
+    height: auto;
+}
+
+

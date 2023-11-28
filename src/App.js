@@ -1,14 +1,22 @@
 import NavSection from './Components/Nav-Section';
 import MainPage from './Components/Main-Page';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css';
+import ContactSection from './Components/Contact-Section';
+import AboutSection from './Components/About-Section';
 
 function App() {
   return (
     <Router>
     <div className='app-container'>
     <NavSection />
-    <MainPage />
+    <Routes>
+    <Route path='/' exact Component={MainPage}/>
+    <Route path='/about' exact Component={AboutSection}/>
+    <Route path='/contact' exact Component={ContactSection}/>
+
+    </Routes> 
 
     </div>
     </Router>

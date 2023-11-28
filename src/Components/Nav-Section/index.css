@@ -1,11 +1,13 @@
 :root {
-    --primary: #eae7dc;
-    --secondary: #e85a4f;
-    --alternate: #d8c3a5;
+    --primary: #0d0d0d;
+    --secondary: #8c594d;
+    --alternate: #404040;
+    --cloud: #a6a6a6;
+    
 }
 
 body {
-    background-color: var(--primary);
+    background-color: var(--alternate);
     margin: 0;
     padding: 0;
 }
@@ -13,6 +15,7 @@ body {
 
 /* logo-name is strictly for my name at the top of the nav bar */
 .logo-name{
+    color: white;
     display: flex;
     font-family: 'Barlow', sans-serif;
     text-align: center;
@@ -23,12 +26,14 @@ body {
 }
 
 .navbar{
-    background-color: var(--alternate);
+    background-color: var(--secondary);
     padding: 15px;
     width: 100px;
     height: 100vh;
+    box-shadow: 2px 2px 2px 2px #0d0d0d;
 }
-/* container is the entire div that holds the portfolio home link as well as the links for about and contact */
+
+/* container-main is the div that holds the home, contact, and about links */
 .container-main {
     height: auto;
     font-family: 'Barlow', sans-serif;
@@ -37,22 +42,28 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 30px 0px;
-    
-
 }
+
 /* a is for the links and their spacing */
 a {
     text-decoration: none;
     padding: 16px 0px;
-    color: black;
+    color: white;
+    /* display: flex; */
 }   
 
 a:hover{
-    color: white;
+    color: #d9a282;
+    transform: scale(1.2);
 }
 
 
+.connect-txt{
+    padding-bottom: 30px;
+    color: white;
+}
+
+/* container-secondary holds the github,linkedin, and discord links. */
 .container-secondary {
     position: relative;
     height: auto;
