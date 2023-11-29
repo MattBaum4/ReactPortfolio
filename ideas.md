@@ -1,23 +1,16 @@
 YOU GOT THIS!!!
 
-* For the About page, I can use Cards and icons to show what I have experience in
-    as well as leaflet for a map to show I can do that too
+* Contact page needs done, and its gonna be like this
 
-* Contact page with emailjs and create an input field to email me  
+- SIMPLICITY SELLS
+literally just my location on leaflet for Columbia
+and then figure out emailjs with an input field for a quick email form.
 
-!LEAVING OFF ----
 
-The ABout Me page has been started, and I need to work out some of the styling kinks with getting
-my profile picture with a brief intro ABOVE the 4 badges, then style them to look nicer.
 
-Then I can add a leaflet map above them so itll go like this
 
-LAYOUT (shitty wireframe)
-
-MY FACE
-BRIEF INTRO
-LEAFLET (im from here)
-BADGES
-TECHNOLOGIES I HAVE EXPERIENCE WITH
-
-and that should be it...
+* Home page last, probably with something like this
+Profile pic
+brief intro/summary of whats on the page
+(Again very simple)
+Maybe a list of some of the projects ive worked on in school and Capstone

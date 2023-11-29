@@ -1,0 +1,40 @@
+.home-container-all{
+    width: 100vw;
+    height: auto;
+}
+.leaflet-container{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid black;
+    box-shadow: 2px white;
+    align-items: center;
+}
+.map-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.text-hello-1{    
+    word-wrap: break-word;
+    max-width: 600px;
+    line-height: 36px;
+    font-size: 24px;
+    padding: 32px;
+}
+.text-hello-2{    
+    margin: auto;
+    word-wrap: break-word;
+    max-width: 600px;
+    line-height: 36px;
+    font-size: 24px;
+    padding: 32px;
+}
+
+#selfie{
+    border: 2px solid black;
+}
+.card-profile-pic{
+    padding: 10px;
+}

@@ -1,20 +1,68 @@
-.container-card{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-
-}
-.cards-profile, .cards-badge{
-    text-align: center;
+:root{
     color: white;
-    background-color: blue;
-    border: 2px solid red;
-    
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
 }
-
-img {
-    width: 12vw;
+.about-header-txt{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.cardContainer{
+    width: 100%;
     height: auto;
 }
 
+.card-profile-pic{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.cards-badge{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 60px;  
+}
+
+
+
+img {
+    width: 13vw;
+    height: auto;
+}
+
+#profile-img{
+    width: 14vw;
+    height: auto;
+}
+
+.card-text {
+    max-width: 300px; 
+    word-wrap: break-word;
+    
+}
+/* card-TXT is for the description of myself and the other is for everything else */
+.card-txt{
+    max-width: 600px;
+    word-wrap: break-word;
+    
+}
+
+.tech-img-multi{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white ;
+}
+
+.icons-tech{
+    width: 7rem;
+    height: 7rem;
+    padding: 10px 20px;
+}

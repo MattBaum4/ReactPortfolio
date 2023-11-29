@@ -11,7 +11,7 @@ const NavSection = () => (
         <Container className='container-main'>
             <Nav className='me-auto' />
             <Link to='/'>Home</Link>
-            <Link to='/about'>About Me</Link>
+            <Link to='/about'>Knowledge</Link>
             <Link to='/contact'>Contact</Link>
         </Container>
         <Container className='container-secondary'>

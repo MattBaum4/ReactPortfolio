@@ -1,6 +1,10 @@
+import "./index.css";
+
 const ContactSection = () => {
-    return (
-        <div>Hello from contact</div>
-    )
-}
-export default ContactSection
+  return (
+    
+    <h1>hello</h1>
+    
+  )
+};
+export default ContactSection;
