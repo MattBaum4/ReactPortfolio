@@ -1,16 +1,16 @@
-YOU GOT THIS!!!
 
-* Contact page needs done, and its gonna be like this
+**** Almost Done
 
-- SIMPLICITY SELLS
-literally just my location on leaflet for Columbia
-and then figure out emailjs with an input field for a quick email form.
-
+Contact page - 
+"Thanks for viewing blah blah blah"
+emailjs form
 
 
+*** Not Started Yet
+Experience page-
+show what I did for the capstone project
+zorkington
+this portfolio project
+can take screenshots of code and whatnot if need be as well for images
+staggered pattern similar to home page
 
-* Home page last, probably with something like this
-Profile pic
-brief intro/summary of whats on the page
-(Again very simple)
-Maybe a list of some of the projects ive worked on in school and Capstone

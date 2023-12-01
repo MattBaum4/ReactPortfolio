@@ -1,5 +1,5 @@
 :root{
-    color: white;
+    color: black;
     font-family: 'Barlow', sans-serif;
     text-align: center;
 }
@@ -45,6 +45,7 @@ img {
 .card-text {
     max-width: 300px; 
     word-wrap: break-word;
+    color: black;
     
 }
 /* card-TXT is for the description of myself and the other is for everything else */
@@ -58,7 +59,7 @@ img {
     justify-content: center;
     display: flex;
     text-align: center;
-    color: white ;
+    color: #FF532F ;
 }
 
 .icons-tech{

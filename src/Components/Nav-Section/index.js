@@ -7,11 +7,12 @@ import { Link } from 'react-router-dom'
 
 const NavSection = () => (
     <Navbar>
-            <Navbar.Brand className='logo-name'>Portfolio Project</Navbar.Brand>
+            <Navbar.Brand className='logo-name'>Portfolio</Navbar.Brand>
         <Container className='container-main'>
             <Nav className='me-auto' />
             <Link to='/'>Home</Link>
             <Link to='/about'>Knowledge</Link>
+            <Link to='/experience'>Experience</Link>
             <Link to='/contact'>Contact</Link>
         </Container>
         <Container className='container-secondary'>

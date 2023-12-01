@@ -12,10 +12,12 @@ const MainPage = () => {
         <h1>Welcome To My Portfolio!</h1>
         <div className='card-profile-pic'>
         <img id='selfie' src={ProfilePic}></img>
-        <h3 className='text-hello-1'>Hello, I'm Matthew Baum. <br></br> 
-        As you peruse this portfolio, you'll discover a comprehensive showcase of my technological expertise. 
-        Feel free to explore and, if you have any inquiries, I welcome you to reach out. Thank you for taking the time 
-        to explore my portfolio; your interest is truly appreciated.</h3>
+        <h3 className='text-hello-1'>Hello, I'm <span className='hilite-txt'>Matthew Baum</span>. <br></br> 
+        As you peruse this portfolio, you'll discover a comprehensive showcase of my
+         <span className='hilite-txt'> technological expertise</span>. 
+        Feel free to <span className='hilite-txt'>explore</span> and, if you have any <span className='hilite-txt'>inquiries</span>, 
+        I welcome you to reach out. Thank you for taking the time 
+        to explore my portfolio; your interest is <span className='italicise'>truly </span><span className='hilite-txt'>appreciated</span>.</h3>
         </div> 
      <div className='map-container'>
        <h3 className='text-hello-2'>I have lived in Middle Tennessee most of my life.<br></br>

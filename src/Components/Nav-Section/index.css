@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #6f8695;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -26,9 +26,9 @@ body {
 }
 
 .navbar{
-    background-color: #000435;
+    background-color: #000080;
     padding: 15px;
-    width: 100px;
+    width: 120px;
     height: 120vh;
     box-shadow: 2px 2px 2px 2px #0d0d0d;
 }
@@ -53,8 +53,8 @@ a {
 }   
 
 a:hover{
-    color: #d9a282;
-    transform: scale(1.2);
+    color: #FF532F;
+    transform: scale(1.1);
 }
 
 

@@ -1,0 +1,48 @@
+.email-submission-container{
+    font-family: "Barlow", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    
+    
+}
+
+form{
+    border: 2px solid black;
+    width: 21rem;
+    height: 15rem;
+    font-size: large;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px #FF532F;
+    background-color:#000080;
+    color: white;
+
+    
+}
+button{
+    width: 50%;
+    font-family: "Barolow", sans-serif;
+    
+}
+
+.txt-words{
+    margin: 8px;
+}
+#message-box{
+    width: 80%;
+    height:auto;
+}
+.thanks-txt{
+    display: flex;
+    line-height: 50px;
+}
+input{
+    height: 20px;
+    width: 200px;
+    
+}
