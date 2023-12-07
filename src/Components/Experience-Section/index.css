@@ -1,0 +1,57 @@
+.entire-xp-page{
+    width: 100vw;
+    
+}
+
+.creek-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 28px;
+    width: 80%;
+    margin: auto;
+}
+.creek-txt{
+    max-width: 600px;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+.creek-img{
+    margin: auto;
+    height: 30vh;
+    width: auto;
+}
+
+
+.zork-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    line-height: 28px;
+    width: 90%;
+    
+}
+
+.zork-txt{
+    max-width: 600px;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+.zork-img{
+    height: 18vh;
+    width: auto;
+    margin: auto;
+}
+
+.xp-titles{
+    margin: 60px auto 20px auto;
+}
+
+.port-txt{
+    max-width: 800px;
+    word-wrap: break-word;
+    margin: auto;
+}
+

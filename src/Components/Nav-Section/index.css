@@ -23,6 +23,7 @@ body {
     font-weight: 550;
     font-size: 28px;
     padding-bottom: 25px;
+    justify-content: center;
 }
 
 .navbar{

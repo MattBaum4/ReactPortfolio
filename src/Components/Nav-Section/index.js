@@ -12,7 +12,7 @@ const NavSection = () => (
             <Nav className='me-auto' />
             <Link to='/'>Home</Link>
             <Link to='/about'>Knowledge</Link>
-            <Link to='/experience'>Experience</Link>
+            <Link to='/experience'>Projects</Link>
             <Link to='/contact'>Contact</Link>
         </Container>
         <Container className='container-secondary'>

@@ -1,10 +1,6 @@
 
 **** Almost Done
 
-Contact page - 
-"Thanks for viewing blah blah blah"
-emailjs form
-
 
 *** Not Started Yet
 Experience page-
